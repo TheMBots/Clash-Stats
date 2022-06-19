@@ -37,7 +37,7 @@ client.on('interactionCreate', async interaction => {
             }
             break;
         }
-        case 'cards': return commands.cards(interaction);
+        case 'cards': return commands.help(interaction, interaction.member.id);///return commands.cards(interaction);
     }
 });
 
