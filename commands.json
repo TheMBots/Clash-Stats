@@ -1,0 +1,96 @@
+[
+    {
+        "name": "player",
+        "description": "Get info about specific player!",
+        "options": [
+            {
+                "name": "stats",
+                "type": "SUB_COMMAND",
+                "description": "Get specific player stats!",
+                "options": [
+                    {
+                        "name": "tag",
+                        "description": "Player Tag",
+                        "type": "STRING",
+                        "required": true
+                    }
+                ]
+            },
+            {
+                "name": "chests",
+                "type": "SUB_COMMAND",
+                "description": "Get specific player upcoming chests!",
+                "options": [
+                    {
+                        "name": "tag",
+                        "description": "Player Tag",
+                        "type": "STRING",
+                        "required": true
+                    }
+                ]
+            },
+            {
+                "name": "battles",
+                "type": "SUB_COMMAND",
+                "description": "Get specific player battlelog!",
+                "options": [
+                    {
+                        "name": "tag",
+                        "description": "Player Tag",
+                        "type": "STRING",
+                        "required": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "clan",
+        "description": "Get info about specific clan!",
+        "options": [
+            {
+                "name": "stats",
+                "type": "SUB_COMMAND",
+                "description": "Get specific clan stats!",
+                "options": [
+                    {
+                        "name": "tag",
+                        "description": "Clan Tag",
+                        "type": "STRING",
+                        "required": true
+                    }
+                ]
+            },
+            {
+                "name": "wars",
+                "type": "SUB_COMMAND",
+                "description": "Get specific clan war log!",
+                "options": [
+                    {
+                        "name": "tag",
+                        "description": "Clan Tag",
+                        "type": "STRING",
+                        "required": true
+                    }
+                ]
+            },
+            {
+                "name": "currentwar",
+                "type": "SUB_COMMAND",
+                "description": "Get specific clan current war info!",
+                "options": [
+                    {
+                        "name": "tag",
+                        "description": "Clan Tag",
+                        "type": "STRING",
+                        "required": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "cards",
+        "description": "Get list of all Clash Royale cards!"
+    }
+]

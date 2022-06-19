@@ -1,0 +1,34 @@
+{
+  "name": "clash-stats",
+  "version": "0.0.1",
+  "description": "Public Discord bot, displaying your Clash Royale data!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMBots/Clash-Stats.git"
+  },
+  "keywords": [
+    "public",
+    "discord",
+    "bot",
+    "stats",
+    "clash",
+    "royale",
+    "android",
+    "ios"
+  ],
+  "author": "The M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheMBots/Clash-Stats/issues"
+  },
+  "homepage": "https://github.com/TheMBots/Clash-Stats#readme",
+  "dependencies": {
+    "clash-royale-api": "^1.3.1",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1"
+  }
+}
